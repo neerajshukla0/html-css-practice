@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+}
+
+.container{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.left{
+    width: 65%;
+    height: 100%;
+    background: #eec10d;
+    position: relative;
+}
+
+.right{
+    width: 35%;
+    height: 100%;
+    background: #f8f8ed;
+    position: relative;
+}
+
+.content{
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.content p{
+     font-size: 20px;
+     width: 600px;
+}
+
+.content h1{
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.content h4{
+    font-size: 20px;
+    line-height: 1.5;
+    left: 5px;
+    position: relative;
+}
+
+.count h2{
+    margin-top: 30px;
+    
+}
+
+.count{
+    display: flex;
+    background-color: #eec10d;
+    width: 200px;
+    height: 100px;   
+}
+.count img{
+    margin-bottom: 15px;
+}
+
+
+.pikachu img{
+    display: flex;
+    margin-left: -200px;
+    margin-top: 60px;
+}
+.pokemon img{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 60px;
+}
+.Menu img{
+    position: relative;
+    left: 400px;
+    top: 30px;
+}
+.dots img{
+   position: relative;
+   left: 400px;
+   bottom: 270px;
+   width: 80px;
+   height: 80px;
+}
